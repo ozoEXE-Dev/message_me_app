@@ -18,13 +18,13 @@ void main() async {
   await Firebase.initializeApp(
     options: kIsWeb
         ? const FirebaseOptions(
-            apiKey: "AIzaSyDkkzxDOJpeOprRCtj3Jk6lz09FBMmc4ig",
-            authDomain: "messageme-f64d4.firebaseapp.com",
-            projectId: "messageme-f64d4",
-            storageBucket: "messageme-f64d4.firebasestorage.app",
-            messagingSenderId: "569758046497",
-            appId: "1:569758046497:web:68b95ecf20c2805c3dc660",
-            measurementId: "G-XQ2QMFJHNN",
+            apiKey: "your api key. i didn't put mine because of securi",
+            authDomain: "your authDomain key. i didn't put mine because of security",
+            projectId: "your projectID. i didn't put mine because of security",
+            storageBucket: "your storageBucket. i didn't put mine because of security",
+            messagingSenderId: "your messagingSenderID. i didn't put mine because of security",
+            appId: "your appID. i didn't put mine because of security",
+            measurementId: "your measurmentID key. i didn't put mine because of security",
           )
         : null,
   );
