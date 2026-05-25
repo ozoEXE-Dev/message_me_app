@@ -21,7 +21,7 @@ class AuthService {
 
     googleSignIn.initialize(
       serverClientId:
-          "569758046497-4q5fi011f9cm50hu9q6aq0g2unkshgs1.apps.googleusercontent.com",
+          "your serverClientId. i didn't put mine because of security",
     );
 
     final GoogleSignInAccount? googleUser = await googleSignIn.authenticate();
