@@ -18,7 +18,7 @@ void main() async {
   await Firebase.initializeApp(
     options: kIsWeb
         ? const FirebaseOptions(
-            apiKey: "your api key. i didn't put mine because of securi",
+            apiKey: "your api key. i didn't put mine because of security",
             authDomain: "your authDomain key. i didn't put mine because of security",
             projectId: "your projectID. i didn't put mine because of security",
             storageBucket: "your storageBucket. i didn't put mine because of security",
